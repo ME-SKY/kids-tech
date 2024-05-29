@@ -1,0 +1,20 @@
+.category {
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
+  transition: color 0.34s, background 0.34s;
+
+  h2 {
+    font-weight: 800;
+    font-size: 18px;
+  }
+
+  &.active {
+    background: #5FBF77;
+    color: #FFFFFF;
+  }
+
+  &:hover:not(.active) {
+    background: #b8dac1
+  }
+}
